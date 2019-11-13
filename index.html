@@ -14,58 +14,102 @@
 
 <body>
     <div class="container">
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link" id="homeLink" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="projectLink" href="#">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="aboutLink" href="#">About Me</a>
-            </li>
-        </ul>
+        <div class="card-header">
 
-        <div id="home" class="jumbotron jumbotron-fluid align-item-end text-center">
-            <div class="container">
-                <h1 class="display-4">Ashur Warda</h1>
-                <p class="lead">Studying to become a full-stack web developer in Nackademin
-                </p>
-            </div>
-            <a href="#"></a>
-            <div class="card-group">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">My Project</h5>
-                    </div>
-                    <img src="img/coding.jpg" class="card-img-top" alt="...">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" id="homeLink" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="projectLink" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="aboutLink" href="#">About Me</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="card-body">
+            <!-- Home div block -->
+            <div id="home" class="container align-item-end text-center">
+                <div class="container">
+                    <h1 class="display-4">Ashur Warda</h1>
+                    <p class="lead">A full-stack web developer
+                    </p>
                 </div>
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">About Me</h5>
+                <a href="#"></a>
+                <div class="card-group">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">My Project</h5>
+                        </div>
+                        <img src="img/coding.jpg" class="card-img-top" alt="just a image of code">
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">About Me</h5>
+                        </div>
+                        <img src="..." class="card-img-top" alt="...">
                     </div>
                 </div>
             </div>
         </div>
 
-        <div id="project" class="jumbotron jumbotron-fluid align-item-end text-center">
+        <!-- Project div block -->
+        <div id="project" class="align-item-end text-center">
             <div class="container">
                 <h1 class="display-4">Project</h1>
                 <p class="lead">Here is some github links to my projects
                 </p>
             </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card-body">
+                            <h5 class="card-title">Nim game project</h5>
+                            <a href="https://github.com/Tabben/NimGroup8.git" class="stretched-link"></a>
+                        </div>
+                        <img src="img/nimgamepic.png" class="card-img-top" alt="image of my nim game group project">
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card-body">
+                            <h5 class="card-title">Quiz</h5>
+                            <a href="https://github.com/AshurW/Javascript1-Quiz-App.git" class="stretched-link"></a>
+                        </div>
+                        <img src="img/quizegamepic.png" class="card-img-top" alt="image of my quiz game">
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card-body">
+                            <h5 class="card-title">CRM front-end</h5>
+                            <a href="https://github.com/Spektrus/CRM-Grupp-F.git" class="stretched-link"></a>
+                        </div>
+                        <img src="img/crmpic.png" class="card-img-top" alt="image of crm group project">
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div id="about" class="jumbotron jumbotron-fluid align-item-end text-center">
+        <!-- About Me div block -->
+        <div id="about" class="align-item-end text-center">
             <div class="container">
-                <h1 class="display-4">Ashur Warda</h1>
-                <p class="lead">I have always like fiddling with technolige and lear new stuff
+                <h1 class="display-4">Hi</h1>
+                <p class="lead">My name is Ashur Warda and I have just started focusing on becoming a fullstack web
+                    developer
                 </p>
             </div>
 
         </div>
 
+        <div class="card-footer text-center ">
+            <div class="container">
+                <p>Contact Me</p>
+                <a href="mailto:ashurw@gmail.com"><img src="img/gmail32.png" alt="Link to my gmail"></a>
+                <a href="https://www.linkedin.com/in/ashur-warda-a89055193"><img src="img/LI-In-Bug.png" alt="Link to my LinkedIn"></a>
+                <a href="https://github.com/AshurW"><img src="img/GitHub-Mark-32px.png" alt="Link to my github"></a>
+            </div>
+        </div>
+
+        <!-- script tags -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
             crossorigin="anonymous"></script>
