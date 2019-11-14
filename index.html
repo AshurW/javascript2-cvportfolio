@@ -5,110 +5,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 
     <title>Ashur Portfolio</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="card-header">
 
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link" id="homeLink" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="projectLink" href="#">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="aboutLink" href="#">About Me</a>
-                </li>
-            </ul>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" id="homeLink" href="#">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-link" id="projectLink" href="#">Projects</a>
+                <a class="nav-link" id="aboutLink" href="#">About Me</a>
+            </div>
         </div>
+    </nav>
 
-        <div class="card-body">
-            <!-- Home div block -->
-            <div id="home" class="container align-item-end text-center">
+    <main class="container">
+        <div id="home" class="mt-5 mb-5 justify-content-center text-center">
                 <div class="container">
-                    <h1 class="display-4">Ashur Warda</h1>
-                    <p class="lead">A full-stack web developer
-                    </p>
+                        <h1 class="display-4">Ashur Warda</h1>
+                        <p class="lead">A full-stack web developer
+                        </p>
+                    </div>
+                    <a href="#"></a>
+                    <div class="card-group">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">About Me</h5>
+                            </div>
+                            <img src="img/aboutmepic.jpg"  alt="image of a road representing my life road">
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">My Project</h5>
+                            </div>
+                            <img src="img/coding.jpg" alt="just a image of code">
+                        </div>
+                    </div>
+        </div>
+    </main>
+
+    <!-- Project div block -->
+    <div id="project" class="mt-5 mb-5 justify-content-center text-center">
+        <div class="container">
+            <h1 class="display-4">Project</h1>
+            <p class="lead">Here is some github links to my projects
+            </p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-body">
+                        <h5 class="card-title">CRM front-end</h5>
+                        <a href="https://github.com/Spektrus/CRM-Grupp-F.git" class="stretched-link"></a>
+                    </div>
+                    <img src="img/crmpic.png" class="card-img-top" alt="image of crm group project">
                 </div>
-                <a href="#"></a>
-                <div class="card-group">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">About Me</h5>
-                        </div>
-                        <img src="img/aboutmepic.jpg" class="card-img-top" alt="image of a road representing my life road">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-body">
+                        <h5 class="card-title">Nim game project</h5>
+                        <a href="https://github.com/Tabben/NimGroup8.git" class="stretched-link"></a>
                     </div>
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">My Project</h5>
-                        </div>
-                        <img src="img/coding.jpg" class="card-img-top" alt="just a image of code">
+                    <img src="img/nimgamepic.png" class="card-img-top" alt="image of my nim game group project">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-body">
+                        <h5 class="card-title">Quiz</h5>
+                        <a href="https://github.com/AshurW/Javascript1-Quiz-App.git" class="stretched-link"></a>
                     </div>
+                    <img src="img/quizegamepic.png" class="card-img-top" alt="image of my quiz game">
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- Project div block -->
-        <div id="project" class="align-item-end text-center">
-            <div class="container">
-                <h1 class="display-4">Project</h1>
-                <p class="lead">Here is some github links to my projects
-                </p>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="card-body">
-                            <h5 class="card-title">Nim game project</h5>
-                            <a href="https://github.com/Tabben/NimGroup8.git" class="stretched-link"></a>
-                        </div>
-                        <img src="img/nimgamepic.png" class="card-img-top" alt="image of my nim game group project">
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="card-body">
-                            <h5 class="card-title">Quiz</h5>
-                            <a href="https://github.com/AshurW/Javascript1-Quiz-App.git" class="stretched-link"></a>
-                        </div>
-                        <img src="img/quizegamepic.png" class="card-img-top" alt="image of my quiz game">
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="card-body">
-                            <h5 class="card-title">CRM front-end</h5>
-                            <a href="https://github.com/Spektrus/CRM-Grupp-F.git" class="stretched-link"></a>
-                        </div>
-                        <img src="img/crmpic.png" class="card-img-top" alt="image of crm group project">
-                    </div>
-                </div>
-            </div>
+    <!-- About Me div block -->
+    <div id="about" class="mt-5 mb-5 justify-content-center text-center">
+        <div class="container">
+            <h1 class="display-4">Hi</h1>
+            <p class="lead">My name is Ashur Warda and I have just started focusing on becoming a fullstack web
+                developer
+            </p>
         </div>
 
-        <!-- About Me div block -->
-        <div id="about" class="align-item-end text-center">
-            <div class="container">
-                <h1 class="display-4">Hi</h1>
-                <p class="lead">My name is Ashur Warda and I have just started focusing on becoming a fullstack web
-                    developer
-                </p>
-            </div>
+    </div>
 
-        </div>
+    <nav class="navbar fixed-bottom justify-content-center">
+            <a class="navbar-brand" href="mailto:ashurw@gmail.com"><img src="img/gmail32.png" alt="Link to my gmail"></a>
+            <a class="navbar-brand" href="https://www.linkedin.com/in/ashur-warda-a89055193"><img src="img/LI-In-Bug.png"
+                    alt="Link to my LinkedIn"></a>
+            <a class="navbar-brand" href="https://github.com/AshurW"><img src="img/GitHub-Mark-32px.png" alt="Link to my github"></a>
+          </nav>
 
-        <div class="card-footer text-center ">
-            <div class="container">
-                <p>Contact Me</p>
-                <a href="mailto:ashurw@gmail.com"><img src="img/gmail32.png" alt="Link to my gmail"></a>
-                <a href="https://www.linkedin.com/in/ashur-warda-a89055193"><img src="img/LI-In-Bug.png"
-                        alt="Link to my LinkedIn"></a>
-                <a href="https://github.com/AshurW"><img src="img/GitHub-Mark-32px.png" alt="Link to my github"></a>
-            </div>
-        </div>
 
         <!-- script tags -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

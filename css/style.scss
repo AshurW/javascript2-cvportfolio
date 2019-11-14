@@ -1,0 +1,25 @@
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+    background-color: #e6f8f9;
+    color: #ca3e47;
+}
+
+.navbar{
+    background-color: #b1e8ed;
+}
+
+
+.card {
+    margin-left: 1rem;
+    background-color: #e6f8f9;
+    border: none;
+    border-radius: 0.5rem;
+    img {
+        border-radius: 30%;
+    }
+    .card-body {
+        padding: 0;
+    }
+  }
