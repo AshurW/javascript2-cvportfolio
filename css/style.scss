@@ -1,25 +1,54 @@
+$bg-color: #e6f8f9;
+$nav-color: #b1e8ed;
+$text-color: #ca3e47;
+$navbar-light-color: #ca3e47;
+$navbar-light-active-color: #ca3e47;
+$navbar-light-toggler-border-color: #bd8185;
+$navbar-light-hover-color: #ca3e47;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 body {
-    background-color: #e6f8f9;
-    color: #ca3e47;
+    background-color: $bg-color;
+    color: $text-color;
 }
 
 .navbar{
-    background-color: #b1e8ed;
+    background-color: $nav-color;
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
+.navbar-nav {
+    .nav-link {
+        font-size: 1.8rem;
+      &:hover {
+          background-color: $bg-color;
+      }
+    }
+    .show > .nav-link,
+    .active > .nav-link,
+    .nav-link.show,
+    .nav-link.active {
+      color: $navbar-light-active-color;
+      background-color: $bg-color;
+    }
+}
+
+.navbar-toggler {
+    margin: 5px 0;
+  }
 
 .card {
-    margin-left: 1rem;
-    background-color: #e6f8f9;
+    background-color: $bg-color;
     border: none;
-    border-radius: 0.5rem;
-    img {
-        border-radius: 30%;
+    border-radius: 0.1rem;
+    padding: 28px;
+    &:hover {
+        transform: scale(1.1);
     }
     .card-body {
         padding: 0;
     }
   }
+
