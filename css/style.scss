@@ -35,9 +35,23 @@ body {
     }
 }
 
+.logoLink {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    color: $text-color;
+    font-size: 1.8;
+    img {
+        margin-right: 3px;
+    }
+    &:hover{
+        color: $navbar-light-active-color;
+        background-color: $bg-color;
+    }
+}
+
 .navbar-toggler {
     margin: 5px 0;
-  }
+}
 
 .card {
     background-color: $bg-color;
